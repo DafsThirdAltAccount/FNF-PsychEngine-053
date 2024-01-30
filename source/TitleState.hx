@@ -88,7 +88,6 @@ class TitleState extends MusicBeatState
 
 		Paths.pushGlobalMods();
 		// Just to load a mod on start up if ya got one. For mods that change the menu music and bg
-		WeekData.loadTheFirstEnabledMod();
 
 		//trace(path, FileSystem.exists(path));
 
@@ -595,6 +594,8 @@ class TitleState extends MusicBeatState
 					addMoreText('Shadow Mario', 15);
 					addMoreText('RiverOaken', 15);
 					addMoreText('shubs', 15);
+					addMoreText('bb-panzu', 15);
+					addMoreText('DaffyToons', 15);
 					#else
 					addMoreText('present');
 					#end
